@@ -1,0 +1,102 @@
+{
+  "name": "Foundational Statistics",
+  "isCategory": true,
+  "children": [
+    {
+      "name": "Compute Event Probabilities",
+      "isCategory": true,
+      "children": [
+        {
+          "name": "Work with Distributions",
+          "isCategory": false
+        }
+      ]
+    },
+    {
+      "name": "Estimate Population Parameters",
+      "isCategory": true,
+      "children": [
+        {
+          "name": "Compute Confidence Intervals",
+          "isCategory": true,
+          "children": [
+            {
+              "name": "Understand Hypothesis Testing",
+              "isCategory": true,
+              "children": [
+                {
+                  "name": "Conduct t-tests",
+                  "isCategory": true,
+                  "children": [
+                    {
+                      "name": "Choose Appropriate Test",
+                      "isCategory": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Conduct chi-square tests",
+                  "isCategory": true,
+                  "children": [
+                    {
+                      "name": "Choose Appropriate Test",
+                      "isCategory": false
+                    }
+                  ]
+                },
+                {
+                  "name": "Compute Correlation Coefficients",
+                  "isCategory": true,
+                  "children": [
+                    {
+                      "name": "Correlation vs. Causation",
+                      "isCategory": true,
+                      "children": [
+                        {
+                          "name": "Perform Linear Regression",
+                          "isCategory": true,
+                          "children": [
+                            {
+                              "name": "Interpret Regression Output",
+                              "isCategory": false
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Understand Spatial Distributions",
+      "isCategory": true,
+      "children": [
+        {
+          "name": "Calculate Spatial Central Tendency",
+          "isCategory": true,
+          "children": [
+            {
+              "name": "Apply Spatial Dispersion Measures",
+              "isCategory": true,
+              "children": [
+                {
+                  "name": "Interpret Spatial Coefficients",
+                  "isCategory": false
+                },
+                {
+                  "name": "Test",
+                  "isCategory": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

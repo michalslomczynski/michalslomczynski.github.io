@@ -1,0 +1,283 @@
+{
+  "Foundational Statistics": [
+    {
+      "questionId": "FS_Q1",
+      "description": "What are the core principles of foundational statistics?",
+      "summary": "Key ideas in basic statistics",
+      "solution": "Descriptive and inferential statistics",
+      "isCorrect": false
+    },
+    {
+      "questionId": "FS_Q2",
+      "description": "Explain the difference between a population and a sample in statistics.",
+      "summary": "Population vs. sample explained",
+      "solution": "Population is the entire group, sample is a subset.",
+      "isCorrect": false
+    }
+  ],
+  "Compute Event Probabilities": [
+    {
+      "questionId": "CEP_Q1",
+      "description": "Calculate the probability of rolling a 7 with two standard six-sided dice.",
+      "summary": "Chance of rolling a 7 with two dice",
+      "solution": "6/36 or 1/6",
+      "isCorrect": false
+    },
+    {
+      "questionId": "CEP_Q2",
+      "description": "What is conditional probability? Provide an example.",
+      "summary": "Conditional probability definition and example",
+      "solution": "P(A|B)",
+      "isCorrect": false
+    }
+  ],
+  "Work with Distributions": [
+    {
+      "questionId": "WWD_Q1",
+      "description": "Describe the key characteristics of a normal distribution.",
+      "summary": "Main features of a normal distribution",
+      "solution": "Bell-shaped, symmetrical",
+      "isCorrect": false
+    },
+    {
+      "questionId": "WWD_Q2",
+      "description": "When would you use a binomial distribution?",
+      "summary": "Appropriate uses for binomial distribution",
+      "solution": "Fixed number of trials, two outcomes",
+      "isCorrect": false
+    }
+  ],
+  "Estimate Population Parameters": [
+    {
+      "questionId": "EPP_Q1",
+      "description": "What is a point estimate for a population mean?",
+      "summary": "Defining a point estimate for population mean",
+      "solution": "Sample mean (x-bar)",
+      "isCorrect": false
+    },
+    {
+      "questionId": "EPP_Q2",
+      "description": "Why are interval estimates often preferred over point estimates?",
+      "summary": "Advantages of interval estimates over point estimates",
+      "solution": "Provide a range of plausible values and confidence level",
+      "isCorrect": false
+    }
+  ],
+  "Compute Confidence Intervals": [
+    {
+      "questionId": "CCI_Q1",
+      "description": "How do you interpret a 95% confidence interval?",
+      "summary": "Meaning of a 95% confidence interval",
+      "solution": "95% confident the true parameter lies within the interval",
+      "isCorrect": false
+    },
+    {
+      "questionId": "CCI_Q2",
+      "description": "What factors affect the width of a confidence interval?",
+      "summary": "Influences on confidence interval width",
+      "solution": "Sample size, confidence level, standard deviation",
+      "isCorrect": false
+    }
+  ],
+  "Understand Hypothesis Testing": [
+    {
+      "questionId": "UHT_Q1",
+      "description": "Define the null and alternative hypotheses.",
+      "summary": "Defining null and alternative hypotheses",
+      "solution": "H0 (no effect), Ha (effect)",
+      "isCorrect": false
+    },
+    {
+      "questionId": "UHT_Q2",
+      "description": "What is a p-value and how is it used in hypothesis testing?",
+      "summary": "P-value definition and its role in testing",
+      "solution": "Probability of observing data if H0 is true",
+      "isCorrect": false
+    }
+  ],
+  "Conduct t-tests": [
+    {
+      "questionId": "CTT_Q1",
+      "description": "When is a one-sample t-test appropriate?",
+      "summary": "Suitable situations for a one-sample t-test",
+      "solution": "Comparing sample mean to a known population mean (sigma unknown)",
+      "isCorrect": false
+    },
+    {
+      "questionId": "CTT_Q2",
+      "description": "What are the assumptions for an independent samples t-test?",
+      "summary": "Assumptions for independent samples t-test",
+      "solution": "Independence, normality, homogeneity of variances",
+      "isCorrect": false
+    }
+  ],
+  "Choose Appropriate Test": [
+    {
+      "questionId": "CAT_Q1",
+      "description": "Given two independent groups and continuous data, what test would you use to compare means?",
+      "summary": "Test for comparing means of two independent groups",
+      "solution": "Independent samples t-test (or Welch's if variances unequal)",
+      "isCorrect": false
+    },
+    {
+      "questionId": "CAT_Q2",
+      "description": "If you are comparing proportions of a categorical variable across three groups, what test is suitable?",
+      "summary": "Test for comparing proportions across three groups",
+      "solution": "Chi-square test of independence",
+      "isCorrect": false
+    }
+  ],
+  "Conduct chi-square tests": [
+    {
+      "questionId": "CCS_Q1",
+      "description": "What is the purpose of a chi-square goodness-of-fit test?",
+      "summary": "Goal of chi-square goodness-of-fit test",
+      "solution": "Compare observed frequencies to expected frequencies",
+      "isCorrect": false
+    },
+    {
+      "questionId": "CCS_Q2",
+      "description": "What does a significant chi-square test of independence indicate?",
+      "summary": "Meaning of significant chi-square independence test",
+      "solution": "There is an association between the two categorical variables",
+      "isCorrect": false
+    }
+  ],
+  "Compute Correlation Coefficients": [
+    {
+      "questionId": "CCC_Q1",
+      "description": "What does a Pearson correlation coefficient of -0.8 indicate?",
+      "summary": "Interpreting a Pearson correlation of -0.8",
+      "solution": "Strong negative linear relationship",
+      "isCorrect": false
+    },
+    {
+      "questionId": "CCC_Q2",
+      "description": "When would you use Spearman's rank correlation instead of Pearson's?",
+      "summary": "When to use Spearman's over Pearson's correlation",
+      "solution": "Ordinal data or non-linear monotonic relationship",
+      "isCorrect": false
+    }
+  ],
+  "Correlation vs. Causation": [
+    {
+      "questionId": "CVC_Q1",
+      "description": "Explain why correlation does not imply causation.",
+      "summary": "Why correlation isn't causation",
+      "solution": "Lurking variables, spurious correlation",
+      "isCorrect": false
+    },
+    {
+      "questionId": "CVC_Q2",
+      "description": "Provide an example of a spurious correlation.",
+      "summary": "Example of a misleading correlation",
+      "solution": "Ice cream sales and crime rates (both affected by weather)",
+      "isCorrect": false
+    }
+  ],
+  "Perform Linear Regression": [
+    {
+      "questionId": "PLR_Q1",
+      "description": "What is the equation for a simple linear regression model?",
+      "summary": "Equation of a simple linear regression",
+      "solution": "Y = b0 + b1X + e",
+      "isCorrect": false
+    },
+    {
+      "questionId": "PLR_Q2",
+      "description": "What are the assumptions of linear regression?",
+      "summary": "Underlying assumptions for linear regression",
+      "solution": "Linearity, independence of errors, homoscedasticity, normality of errors",
+      "isCorrect": false
+    }
+  ],
+  "Interpret Regression Output": [
+    {
+      "questionId": "IRO_Q1",
+      "description": "How do you interpret the slope coefficient in a linear regression model?",
+      "summary": "Meaning of slope in linear regression",
+      "solution": "Change in Y for a one-unit change in X",
+      "isCorrect": false
+    },
+    {
+      "questionId": "IRO_Q2",
+      "description": "What does an R-squared value of 0.75 mean?",
+      "summary": "Explaining an R-squared of 0.75",
+      "solution": "75% of the variance in Y is explained by X",
+      "isCorrect": false
+    }
+  ],
+  "Understand Spatial Distributions": [
+    {
+      "questionId": "USD_Q1",
+      "description": "What are the three main types of spatial patterns?",
+      "summary": "Three primary spatial pattern types",
+      "solution": "Clustered, dispersed, random",
+      "isCorrect": false
+    },
+    {
+      "questionId": "USD_Q2",
+      "description": "Why is understanding spatial distribution important in geography?",
+      "summary": "Importance of spatial distribution in geography",
+      "solution": "Resource allocation, planning, understanding phenomena",
+      "isCorrect": false
+    }
+  ],
+  "Calculate Spatial Central Tendency": [
+    {
+      "questionId": "CSCT_Q1",
+      "description": "Name two measures of spatial central tendency.",
+      "summary": "Two measures for spatial central tendency",
+      "solution": "Mean center, median center",
+      "isCorrect": false
+    },
+    {
+      "questionId": "CSCT_Q2",
+      "description": "When might the median center be preferred over the mean center?",
+      "summary": "When to prefer median center over mean center",
+      "solution": "When there are spatial outliers",
+      "isCorrect": false
+    }
+  ],
+  "Apply Spatial Dispersion Measures": [
+    {
+      "questionId": "ASDM_Q1",
+      "description": "What does standard distance deviation measure?",
+      "summary": "What standard distance deviation measures",
+      "solution": "Absolute dispersion of points around the mean center",
+      "isCorrect": false
+    },
+    {
+      "questionId": "ASDM_Q2",
+      "description": "How can relative dispersion be assessed in spatial analysis?",
+      "summary": "Assessing relative dispersion in spatial analysis",
+      "solution": "Comparing standard distance to the size of the study area",
+      "isCorrect": false
+    }
+  ],
+  "Interpret Spatial Coefficients": [
+    {
+      "questionId": "ISC_Q1",
+      "description": "What does Moran's I measure?",
+      "summary": "What Moran's I statistic measures",
+      "solution": "Global spatial autocorrelation",
+      "isCorrect": false
+    },
+    {
+      "questionId": "ISC_Q2",
+      "description": "A positive and significant Moran's I value indicates what type of spatial pattern?",
+      "summary": "Spatial pattern from positive Moran's I",
+      "solution": "Clustering of similar values",
+      "isCorrect": false
+    }
+  ],
+  "Test": [
+    {
+      "questionId": "TEST_1",
+      "description": "What is test?",
+      "summary": "Defining 'test'",
+      "solution": "S",
+      "isCorrect": false
+    }
+  ]
+}

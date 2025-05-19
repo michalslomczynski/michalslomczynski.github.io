@@ -13,6 +13,20 @@
       "summary": "Population vs. sample explained",
       "solution": "Population is the entire group, sample is a subset.",
       "isCorrect": false
+    },
+    {
+      "questionId": "FS_Q3",
+      "description": "A dataset represents the daily number of customers at a small shop over a week:\n45, 50, 55, 60, 65, 70, 7545, 50, 55, 60, 65, 70, 75.\nCalculate the mean and standard deviation of this dataset.",
+      "summary": "Compute the Mean",
+      "solution": "60",
+      "isCorrect": false
+    },
+    {
+      "questionId": "FS_Q4",
+      "description": "A dataset represents the daily number of customers at a small shop over a week:\n45, 50, 55, 60, 65, 70, 7545, 50, 55, 60, 65, 70, 75. Calculate the mean and standard deviation of this dataset.",
+      "summary": "Compute the Standard deviation",
+      "solution": "10.8",
+      "isCorrect": false
     }
   ],
   "Compute Event Probabilities": [

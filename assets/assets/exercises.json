@@ -1,297 +1,297 @@
 {
   "Foundational Statistics": [
     {
-      "questionId": "FS_Q1",
-      "description": "What are the core principles of foundational statistics?",
-      "summary": "Key ideas in basic statistics",
-      "solution": "Descriptive and inferential statistics",
-      "isCorrect": false
+      "questionId": "FS_Q1_NEW",
+      "description": "If a dataset has 5 numbers: 2, 4, 6, 8, 10. What is their sum?",
+      "summary": "Calculate sum of a small dataset",
+      "solution": "Sum = 2 + 4 + 6 + 8 + 10",
+      "answer": 30
     },
     {
-      "questionId": "FS_Q2",
-      "description": "Explain the difference between a population and a sample in statistics.",
-      "summary": "Population vs. sample explained",
-      "solution": "Population is the entire group, sample is a subset.",
-      "isCorrect": false
+      "questionId": "FS_Q2_NEW",
+      "description": "A survey of 100 people found 60 prefer coffee and 40 prefer tea. What percentage prefers coffee?",
+      "summary": "Calculate percentage",
+      "solution": "(Number who prefer coffee / Total people) * 100",
+      "answer": 60
     },
     {
       "questionId": "FS_Q3",
-      "description": "A dataset represents the daily number of customers at a small shop over a week:\n45, 50, 55, 60, 65, 70, 7545, 50, 55, 60, 65, 70, 75.\nCalculate the mean and standard deviation of this dataset.",
+      "description": "A dataset represents the daily number of customers at a small shop over a week:\n45, 50, 55, 60, 65, 70, 75.\nCalculate the mean of this dataset.",
       "summary": "Compute the Mean",
-      "solution": "60",
-      "isCorrect": false
+      "solution": "(45+50+55+60+65+70+75) / 7",
+      "answer": 60
     },
     {
       "questionId": "FS_Q4",
-      "description": "A dataset represents the daily number of customers at a small shop over a week:\n45, 50, 55, 60, 65, 70, 7545, 50, 55, 60, 65, 70, 75. Calculate the mean and standard deviation of this dataset.",
+      "description": "A dataset represents the daily number of customers at a small shop over a week:\n45, 50, 55, 60, 65, 70, 75.\nCalculate the sample standard deviation of this dataset (approximate to 1 decimal place).",
       "summary": "Compute the Standard deviation",
-      "solution": "10.8",
-      "isCorrect": false
+      "solution": "First, calculate the mean. Then, find the sum of squared differences from the mean: Σ(x-μ)². Divide by (n-1) to get the variance. The standard deviation is the square root of the variance.",
+      "answer": 10.8
     }
   ],
   "Compute Event Probabilities": [
     {
       "questionId": "CEP_Q1",
-      "description": "Calculate the probability of rolling a 7 with two standard six-sided dice.",
-      "summary": "Chance of rolling a 7 with two dice",
-      "solution": "6/36 or 1/6",
-      "isCorrect": false
+      "description": "Calculate the probability of rolling a 7 with two standard six-sided dice. Express as a fraction a/b, what is a+b if the fraction is in simplest form?",
+      "summary": "Chance of rolling a 7 with two dice (sum of numerator and denominator of simplified fraction)",
+      "solution": "Identify combinations for rolling a 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) which are 6 ways. Total possible outcomes are 36 (6x6). Probability = Ways to roll 7 / Total outcomes. Simplify this fraction to a/b and calculate a+b.",
+      "answer": 7
     },
     {
-      "questionId": "CEP_Q2",
-      "description": "What is conditional probability? Provide an example.",
-      "summary": "Conditional probability definition and example",
-      "solution": "P(A|B)",
-      "isCorrect": false
+      "questionId": "CEP_Q2_NEW",
+      "description": "A bag contains 3 red balls and 2 blue balls. What is the probability of drawing a red ball? (Express as a decimal)",
+      "summary": "Probability of drawing a red ball",
+      "solution": "Probability = Number of red balls / Total number of balls. Total balls = Number of red balls + Number of blue balls.",
+      "answer": 0.6
     }
   ],
   "Work with Distributions": [
     {
-      "questionId": "WWD_Q1",
-      "description": "Describe the key characteristics of a normal distribution.",
-      "summary": "Main features of a normal distribution",
-      "solution": "Bell-shaped, symmetrical",
-      "isCorrect": false
+      "questionId": "WWD_Q1_NEW",
+      "description": "In a standard normal distribution, what is the Z-score for the mean?",
+      "summary": "Z-score of the mean in a standard normal distribution",
+      "solution": "The Z-score formula is (X - μ) / σ. In a standard normal distribution, the mean (μ) is 0. For the mean itself (X=μ), the numerator becomes (μ - μ).",
+      "answer": 0
     },
     {
-      "questionId": "WWD_Q2",
-      "description": "When would you use a binomial distribution?",
-      "summary": "Appropriate uses for binomial distribution",
-      "solution": "Fixed number of trials, two outcomes",
-      "isCorrect": false
+      "questionId": "WWD_Q2_NEW",
+      "description": "If a binomial distribution has n=10 trials and probability of success p=0.5, what is the expected number of successes (mean)?",
+      "summary": "Mean of a binomial distribution",
+      "solution": "The mean (expected value, μ) of a binomial distribution is given by the formula: μ = n * p.",
+      "answer": 5
     }
   ],
   "Estimate Population Parameters": [
     {
-      "questionId": "EPP_Q1",
-      "description": "What is a point estimate for a population mean?",
-      "summary": "Defining a point estimate for population mean",
-      "solution": "Sample mean (x-bar)",
-      "isCorrect": false
+      "questionId": "EPP_Q1_NEW",
+      "description": "A sample of 25 items has a mean weight of 10 grams. If this sample mean is used as a point estimate for the population mean, what is the value of this estimate?",
+      "summary": "Value of a point estimate for population mean",
+      "solution": "The sample mean (x-bar) is used as the point estimate for the population mean (μ). The value is directly given by the sample mean.",
+      "answer": 10
     },
     {
-      "questionId": "EPP_Q2",
-      "description": "Why are interval estimates often preferred over point estimates?",
-      "summary": "Advantages of interval estimates over point estimates",
-      "solution": "Provide a range of plausible values and confidence level",
-      "isCorrect": false
+      "questionId": "EPP_Q2_NEW",
+      "description": "If a 95% confidence interval for a population mean is (10.5, 12.5), what is the margin of error?",
+      "summary": "Calculate margin of error from CI",
+      "solution": "The margin of error is half the width of the confidence interval. Width = Upper Bound - Lower Bound. Margin of error = Width / 2.",
+      "answer": 1.0
     }
   ],
   "Compute Confidence Intervals": [
     {
-      "questionId": "CCI_Q1",
-      "description": "How do you interpret a 95% confidence interval?",
-      "summary": "Meaning of a 95% confidence interval",
-      "solution": "95% confident the true parameter lies within the interval",
-      "isCorrect": false
+      "questionId": "CCI_Q1_NEW",
+      "description": "If a sample mean is 50 and the margin of error for a 95% confidence interval is 5, what is the lower bound of the confidence interval?",
+      "summary": "Lower bound of a CI",
+      "solution": "Lower bound = Sample Mean - Margin of Error.",
+      "answer": 45
     },
     {
-      "questionId": "CCI_Q2",
-      "description": "What factors affect the width of a confidence interval?",
-      "summary": "Influences on confidence interval width",
-      "solution": "Sample size, confidence level, standard deviation",
-      "isCorrect": false
+      "questionId": "CCI_Q2_NEW",
+      "description": "A confidence interval is calculated to be (22.4, 27.6). What is the sample statistic (point estimate) that this interval is centered around?",
+      "summary": "Point estimate from a CI",
+      "solution": "The point estimate is the midpoint of the confidence interval. Midpoint = (Lower Bound + Upper Bound) / 2.",
+      "answer": 25
     }
   ],
   "Understand Hypothesis Testing": [
     {
-      "questionId": "UHT_Q1",
-      "description": "Define the null and alternative hypotheses.",
-      "summary": "Defining null and alternative hypotheses",
-      "solution": "H0 (no effect), Ha (effect)",
-      "isCorrect": false
+      "questionId": "UHT_Q1_NEW",
+      "description": "If a hypothesis test uses a significance level (alpha) of 0.05, what is this value as a percentage?",
+      "summary": "Significance level as percentage",
+      "solution": "To convert a decimal to a percentage, multiply by 100.",
+      "answer": 5
     },
     {
-      "questionId": "UHT_Q2",
-      "description": "What is a p-value and how is it used in hypothesis testing?",
-      "summary": "P-value definition and its role in testing",
-      "solution": "Probability of observing data if H0 is true",
-      "isCorrect": false
+      "questionId": "UHT_Q2_NEW",
+      "description": "If a p-value is calculated to be 0.03 and the significance level (alpha) is 0.05. Do you reject or fail to reject the null hypothesis? (Enter 1 for Reject, 0 for Fail to Reject)",
+      "summary": "Decision rule for p-value",
+      "solution": "The decision rule is: If p-value ≤ alpha, reject the null hypothesis. Otherwise, fail to reject.",
+      "answer": 1
     }
   ],
   "Conduct t-tests": [
     {
-      "questionId": "CTT_Q1",
-      "description": "When is a one-sample t-test appropriate?",
-      "summary": "Suitable situations for a one-sample t-test",
-      "solution": "Comparing sample mean to a known population mean (sigma unknown)",
-      "isCorrect": false
+      "questionId": "CTT_Q1_NEW",
+      "description": "In a one-sample t-test, if the calculated t-statistic is 2.5 and the critical t-value for a two-tailed test at alpha=0.05 is 2.1, is the result statistically significant? (Enter 1 for Yes, 0 for No)",
+      "summary": "Significance in t-test",
+      "solution": "The result is statistically significant if the absolute value of the calculated t-statistic is greater than the critical t-value.",
+      "answer": 1
     },
     {
-      "questionId": "CTT_Q2",
-      "description": "What are the assumptions for an independent samples t-test?",
-      "summary": "Assumptions for independent samples t-test",
-      "solution": "Independence, normality, homogeneity of variances",
-      "isCorrect": false
+      "questionId": "CTT_Q2_NEW",
+      "description": "For an independent samples t-test, Group A has n=10 and Group B has n=12. What are the degrees of freedom assuming equal variances?",
+      "summary": "Degrees of freedom for independent t-test",
+      "solution": "Degrees of freedom (df) for an independent samples t-test assuming equal variances is calculated as: df = n1 + n2 - 2.",
+      "answer": 20
     }
   ],
   "Choose Appropriate Test": [
     {
-      "questionId": "CAT_Q1",
-      "description": "Given two independent groups and continuous data, what test would you use to compare means?",
-      "summary": "Test for comparing means of two independent groups",
-      "solution": "Independent samples t-test (or Welch's if variances unequal)",
-      "isCorrect": false
+      "questionId": "CAT_Q1_NEW",
+      "description": "You are comparing the means of 3 independent groups with continuous, normally distributed data and equal variances. What is the F-statistic value if the Mean Square Between groups (MSB) is 30 and Mean Square Within groups (MSW) is 10?",
+      "summary": "Calculate F-statistic for ANOVA",
+      "solution": "The F-statistic in ANOVA is calculated as F = MSB / MSW.",
+      "answer": 3
     },
     {
-      "questionId": "CAT_Q2",
-      "description": "If you are comparing proportions of a categorical variable across three groups, what test is suitable?",
-      "summary": "Test for comparing proportions across three groups",
-      "solution": "Chi-square test of independence",
-      "isCorrect": false
+      "questionId": "CAT_Q2_NEW",
+      "description": "In a chi-square test of independence with a 2x3 contingency table (2 rows, 3 columns), what are the degrees of freedom?",
+      "summary": "Degrees of freedom for chi-square test",
+      "solution": "Degrees of freedom (df) for a chi-square test of independence = (number of rows - 1) * (number of columns - 1).",
+      "answer": 2
     }
   ],
   "Conduct chi-square tests": [
     {
-      "questionId": "CCS_Q1",
-      "description": "What is the purpose of a chi-square goodness-of-fit test?",
-      "summary": "Goal of chi-square goodness-of-fit test",
-      "solution": "Compare observed frequencies to expected frequencies",
-      "isCorrect": false
+      "questionId": "CCS_Q1_NEW",
+      "description": "In a chi-square goodness-of-fit test with 4 categories, what are the degrees of freedom?",
+      "summary": "Degrees of freedom for goodness-of-fit",
+      "solution": "Degrees of freedom (df) for a chi-square goodness-of-fit test = number of categories - 1.",
+      "answer": 3
     },
     {
-      "questionId": "CCS_Q2",
-      "description": "What does a significant chi-square test of independence indicate?",
-      "summary": "Meaning of significant chi-square independence test",
-      "solution": "There is an association between the two categorical variables",
-      "isCorrect": false
+      "questionId": "CCS_Q2_NEW",
+      "description": "A chi-square test of independence yields a calculated chi-square value of 7.8. The critical value at alpha=0.05 for the given degrees of freedom is 5.99. Is there a significant association? (Enter 1 for Yes, 0 for No)",
+      "summary": "Significance in chi-square test",
+      "solution": "If the calculated chi-square value is greater than the critical chi-square value, the result is significant, indicating an association.",
+      "answer": 1
     }
   ],
   "Compute Correlation Coefficients": [
     {
       "questionId": "CCC_Q1",
-      "description": "What does a Pearson correlation coefficient of -0.8 indicate?",
+      "description": "What does a Pearson correlation coefficient of -0.8 indicate about the strength and direction of a linear relationship?",
       "summary": "Interpreting a Pearson correlation of -0.8",
-      "solution": "Strong negative linear relationship",
-      "isCorrect": false
+      "solution": "A Pearson correlation coefficient (r) of -0.8 indicates a strong negative linear relationship. To find the coefficient of determination (r-squared), square the value of r.",
+      "answer": 0.64
     },
     {
-      "questionId": "CCC_Q2",
-      "description": "When would you use Spearman's rank correlation instead of Pearson's?",
-      "summary": "When to use Spearman's over Pearson's correlation",
-      "solution": "Ordinal data or non-linear monotonic relationship",
-      "isCorrect": false
+      "questionId": "CCC_Q2_NEW",
+      "description": "If two variables have a perfect positive linear correlation, what is the value of the Pearson correlation coefficient?",
+      "summary": "Value of perfect positive correlation",
+      "solution": "A perfect positive linear correlation is represented by the maximum positive value for the Pearson correlation coefficient.",
+      "answer": 1
     }
   ],
   "Correlation vs. Causation": [
     {
-      "questionId": "CVC_Q1",
-      "description": "Explain why correlation does not imply causation.",
-      "summary": "Why correlation isn't causation",
-      "solution": "Lurking variables, spurious correlation",
-      "isCorrect": false
+      "questionId": "CVC_Q1_NEW",
+      "description": "If the correlation between ice cream sales and sunglasses sales is 0.8, and the correlation between ice cream sales and a confounding variable (temperature) is 0.9. What is the value of the stronger correlation given?",
+      "summary": "Identify stronger correlation value",
+      "solution": "Compare the absolute values of the given correlation coefficients to determine which indicates a stronger relationship.",
+      "answer": 0.9
     },
     {
-      "questionId": "CVC_Q2",
-      "description": "Provide an example of a spurious correlation.",
-      "summary": "Example of a misleading correlation",
-      "solution": "Ice cream sales and crime rates (both affected by weather)",
-      "isCorrect": false
+      "questionId": "CVC_Q2_NEW",
+      "description": "A study finds a correlation of r=0.7 between variable A and variable B. Another study with a larger sample finds r=0.3. What is the absolute difference between these two correlation coefficients?",
+      "summary": "Absolute difference in correlations",
+      "solution": "Calculate the absolute difference by subtracting the smaller correlation from the larger one and taking the absolute value: |r1 - r2|.",
+      "answer": 0.4
     }
   ],
   "Perform Linear Regression": [
     {
-      "questionId": "PLR_Q1",
-      "description": "What is the equation for a simple linear regression model?",
-      "summary": "Equation of a simple linear regression",
-      "solution": "Y = b0 + b1X + e",
-      "isCorrect": false
+      "questionId": "PLR_Q1_NEW",
+      "description": "In a simple linear regression equation Y = 5 + 2X, what is the value of the y-intercept (b0)?",
+      "summary": "Identify y-intercept",
+      "solution": "The y-intercept (b0) is the constant term in the linear regression equation Y = b0 + b1X.",
+      "answer": 5
     },
     {
-      "questionId": "PLR_Q2",
-      "description": "What are the assumptions of linear regression?",
-      "summary": "Underlying assumptions for linear regression",
-      "solution": "Linearity, independence of errors, homoscedasticity, normality of errors",
-      "isCorrect": false
+      "questionId": "PLR_Q2_NEW",
+      "description": "In a simple linear regression equation Y = 5 + 2X, what is the value of the slope coefficient (b1)?",
+      "summary": "Identify slope coefficient",
+      "solution": "The slope coefficient (b1) is the coefficient of the independent variable (X) in the linear regression equation Y = b0 + b1X.",
+      "answer": 2
     }
   ],
   "Interpret Regression Output": [
     {
-      "questionId": "IRO_Q1",
-      "description": "How do you interpret the slope coefficient in a linear regression model?",
-      "summary": "Meaning of slope in linear regression",
-      "solution": "Change in Y for a one-unit change in X",
-      "isCorrect": false
+      "questionId": "IRO_Q1_NEW",
+      "description": "If the slope coefficient (b1) in a linear regression model is 3.5, how much does Y change for a one-unit change in X?",
+      "summary": "Change in Y for unit change in X",
+      "solution": "The slope coefficient (b1) directly indicates how many units Y changes for each one-unit change in X.",
+      "answer": 3.5
     },
     {
       "questionId": "IRO_Q2",
-      "description": "What does an R-squared value of 0.75 mean?",
+      "description": "An R-squared value of 0.75 means what percentage of the variance in Y is explained by X?",
       "summary": "Explaining an R-squared of 0.75",
-      "solution": "75% of the variance in Y is explained by X",
-      "isCorrect": false
+      "solution": "R-squared represents the proportion of the variance in the dependent variable (Y) that is predictable from the independent variable (X). To express this as a percentage, multiply by 100.",
+      "answer": 75
     }
   ],
   "Understand Spatial Distributions": [
     {
-      "questionId": "USD_Q1",
-      "description": "What are the three main types of spatial patterns?",
-      "summary": "Three primary spatial pattern types",
-      "solution": "Clustered, dispersed, random",
-      "isCorrect": false
+      "questionId": "USD_Q1_NEW",
+      "description": "If a spatial pattern shows 10 points clustered in one small area out of 100 possible locations, and 0 points elsewhere. How many clusters are observed?",
+      "summary": "Count observed clusters",
+      "solution": "Analyze the description of the spatial pattern to count the distinct groupings of points.",
+      "answer": 1
     },
     {
-      "questionId": "USD_Q2",
-      "description": "Why is understanding spatial distribution important in geography?",
-      "summary": "Importance of spatial distribution in geography",
-      "solution": "Resource allocation, planning, understanding phenomena",
-      "isCorrect": false
+      "questionId": "USD_Q2_NEW",
+      "description": "A study area is 100 square km. Resources are planned for 5 service centers. What is the average area served per center if distributed equally?",
+      "summary": "Average area per service center",
+      "solution": "Average area = Total Area / Number of Service Centers.",
+      "answer": 20
     }
   ],
   "Calculate Spatial Central Tendency": [
     {
-      "questionId": "CSCT_Q1",
-      "description": "Name two measures of spatial central tendency.",
-      "summary": "Two measures for spatial central tendency",
-      "solution": "Mean center, median center",
-      "isCorrect": false
+      "questionId": "CSCT_Q1_NEW",
+      "description": "Three points are located at coordinates (1,1), (2,2), and (3,3). What is the x-coordinate of their mean center?",
+      "summary": "X-coordinate of mean center",
+      "solution": "The x-coordinate of the mean center is the average of the x-coordinates of all points: (x1 + x2 + x3) / 3.",
+      "answer": 2
     },
     {
-      "questionId": "CSCT_Q2",
-      "description": "When might the median center be preferred over the mean center?",
-      "summary": "When to prefer median center over mean center",
-      "solution": "When there are spatial outliers",
-      "isCorrect": false
+      "questionId": "CSCT_Q2_NEW",
+      "description": "For the points (1,5), (2,1), (3,5), what is the median of the y-coordinates when ordered?",
+      "summary": "Median of y-coordinates (proxy for median center aspect)",
+      "solution": "List the y-coordinates, order them from smallest to largest, and find the middle value.",
+      "answer": 5
     }
   ],
   "Apply Spatial Dispersion Measures": [
     {
-      "questionId": "ASDM_Q1",
-      "description": "What does standard distance deviation measure?",
-      "summary": "What standard distance deviation measures",
-      "solution": "Absolute dispersion of points around the mean center",
-      "isCorrect": false
+      "questionId": "ASDM_Q1_NEW",
+      "description": "If the standard distance deviation for a set of points is 5 units, and their mean center is (10,10). A new point is added at (10,15). What is its distance from the mean center?",
+      "summary": "Distance of a point from mean center",
+      "solution": "Use the distance formula: D = √((x2-x1)² + (y2-y1)²), where (x1,y1) is the mean center and (x2,y2) is the new point.",
+      "answer": 5
     },
     {
-      "questionId": "ASDM_Q2",
-      "description": "How can relative dispersion be assessed in spatial analysis?",
-      "summary": "Assessing relative dispersion in spatial analysis",
-      "solution": "Comparing standard distance to the size of the study area",
-      "isCorrect": false
+      "questionId": "ASDM_Q2_NEW",
+      "description": "The standard distance of a point pattern is 2 km. The study area is a square with sides of 10 km. What is the ratio of the standard distance to the side length of the study area?",
+      "summary": "Ratio of standard distance to study area side",
+      "solution": "Ratio = Standard Distance / Side Length of the study area.",
+      "answer": 0.2
     }
   ],
   "Interpret Spatial Coefficients": [
     {
-      "questionId": "ISC_Q1",
-      "description": "What does Moran's I measure?",
-      "summary": "What Moran's I statistic measures",
-      "solution": "Global spatial autocorrelation",
-      "isCorrect": false
+      "questionId": "ISC_Q1_NEW",
+      "description": "If Moran's I value is -0.7, does this indicate positive or negative spatial autocorrelation? (Enter 1 for Positive, -1 for Negative, 0 for None/Random)",
+      "summary": "Sign of spatial autocorrelation from Moran's I",
+      "solution": "A negative Moran's I value indicates negative spatial autocorrelation (dispersion). A positive value indicates positive spatial autocorrelation (clustering). A value near zero suggests randomness.",
+      "answer": -1
     },
     {
-      "questionId": "ISC_Q2",
-      "description": "A positive and significant Moran's I value indicates what type of spatial pattern?",
-      "summary": "Spatial pattern from positive Moran's I",
-      "solution": "Clustering of similar values",
-      "isCorrect": false
+      "questionId": "ISC_Q2_NEW",
+      "description": "A Moran's I test yields a p-value of 0.01. If the significance level (alpha) is 0.05, is the observed spatial autocorrelation statistically significant? (Enter 1 for Yes, 0 for No)",
+      "summary": "Significance of Moran's I",
+      "solution": "If the p-value is less than or equal to the significance level (alpha), the result is statistically significant.",
+      "answer": 1
     }
   ],
   "Test": [
     {
-      "questionId": "TEST_1",
-      "description": "What is test?",
-      "summary": "Defining 'test'",
-      "solution": "S",
-      "isCorrect": false
+      "questionId": "TEST_1_NEW",
+      "description": "What is 15 minus 7?",
+      "summary": "Simple subtraction",
+      "solution": "Perform the subtraction: 15 - 7.",
+      "answer": 8
     }
   ]
 }

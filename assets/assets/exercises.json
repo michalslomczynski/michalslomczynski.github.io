@@ -5,7 +5,7 @@
       "description": "A dataset represents the daily number of customers at a small shop over a week:\n45, 50, 55, 60, 65, 70, 75.\nCalculate the mean of this dataset.",
       "summary": "Compute the Mean",
       "solution": "(45+50+55+60+65+70+75) / 7",
-      "answer": 60
+      "answer": 60.0
     },
     {
       "questionId": "FS_Q4",
@@ -40,28 +40,28 @@
       "description": "Two datasets, A and B, both have 5 data points. Dataset A: {2, 4, 6, 8, 10}. Dataset B is created by multiplying each data point in A by 3 and then adding 5. Calculate the variance of Dataset B. (Hint: Recall properties of variance: Var(cX) = c^2 Var(X) and Var(X+k) = Var(X)).",
       "summary": "Variance of a transformed dataset",
       "solution": "First, find Var(A). Mean(A) = 6. Var(A) = [(2-6)^2 + (4-6)^2 + (6-6)^2 + (8-6)^2 + (10-6)^2] / 4 = [16+4+0+4+16]/4 = 40/4 = 10 (using n-1 for sample variance). Let Y = 3X + 5. Var(Y) = Var(3X+5) = Var(3X) = 3^2 Var(X) = 9 * Var(A) = 9 * 10.",
-      "answer": 90
+      "answer": 90.0
     },
     {
       "questionId": "FS_Q6_HARD",
       "description": "A dataset of exam scores is approximately normally distributed with a mean of 75 and a standard deviation of 10. Using the empirical rule (68-95-99.7), what percentage of students scored between 65 and 95? If there are 200 students, approximately how many students scored in this range?",
       "summary": "Application of Empirical Rule",
       "solution": "65 is one standard deviation below the mean (75-10). 95 is two standard deviations above the mean (75 + 2*10). The range from μ-σ to μ+2σ covers approximately 68%/2 + 95%/2 = 34% + 47.5%. Number of students = Percentage * Total students.",
-      "answer": 163
+      "answer": 163.0
     },
     {
       "questionId": "FS_Q7_HARD",
       "description": "The coefficient of variation (CV) is defined as (Standard Deviation / Mean) * 100%. Stock A has a mean monthly return of 2% with a standard deviation of 5%. Stock B has a mean monthly return of 8% with a standard deviation of 15%. Calculate the CV for Stock A and Stock B. Which stock is relatively more risky based on CV (answer with 1 for Stock A, 2 for Stock B)?",
       "summary": "Coefficient of Variation and Relative Risk",
       "solution": "CV_A = (5/2)*100 = 250%. CV_B = (15/8)*100 = 187.5%. Stock A has a higher CV, indicating more risk per unit of return.",
-      "answer": 1
+      "answer": 1.0
     },
     {
       "questionId": "FS_Q8_HARD",
       "description": "A dataset has a median of 50. If each value in the dataset is increased by 10, what is the new median? If each value in the original dataset is then multiplied by 2 (after the increase of 10), what is the new median after both transformations?",
       "summary": "Effect of transformations on median",
       "solution": "Median is affected by additive and multiplicative transformations in the same way as individual data points. New Median_1 = Original Median + 10. New Median_2 = New Median_1 * 2.",
-      "answer": 120
+      "answer": 120.0
     },
     {
       "questionId": "FS_Q9_HARD",
@@ -84,7 +84,7 @@
       "description": "Calculate the probability of rolling a 7 with two standard six-sided dice. Express as a fraction a/b, what is a+b if the fraction is in simplest form?",
       "summary": "Chance of rolling a 7 with two dice (sum of numerator and denominator of simplified fraction)",
       "solution": "Identify combinations for rolling a 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) which are 6 ways. Total possible outcomes are 36 (6x6). Probability = Ways to roll 7 / Total outcomes. Simplify this fraction to a/b and calculate a+b.",
-      "answer": 7
+      "answer": 7.0
     },
     {
       "questionId": "CEP_Q2_NEW",
@@ -100,14 +100,14 @@
       "description": "In a standard normal distribution, what is the Z-score for the mean?",
       "summary": "Z-score of the mean in a standard normal distribution",
       "solution": "The Z-score formula is (X - μ) / σ. In a standard normal distribution, the mean (μ) is 0. For the mean itself (X=μ), the numerator becomes (μ - μ).",
-      "answer": 0
+      "answer": 0.0
     },
     {
       "questionId": "WWD_Q2_NEW",
       "description": "If a binomial distribution has n=10 trials and probability of success p=0.5, what is the expected number of successes (mean)?",
       "summary": "Mean of a binomial distribution",
       "solution": "The mean (expected value, μ) of a binomial distribution is given by the formula: μ = n * p.",
-      "answer": 5
+      "answer": 5.0
     }
   ],
   "Estimate Population Parameters": [
@@ -116,7 +116,7 @@
       "description": "A sample of 25 items has a mean weight of 10 grams. If this sample mean is used as a point estimate for the population mean, what is the value of this estimate?",
       "summary": "Value of a point estimate for population mean",
       "solution": "The sample mean (x-bar) is used as the point estimate for the population mean (μ). The value is directly given by the sample mean.",
-      "answer": 10
+      "answer": 10.0
     },
     {
       "questionId": "EPP_Q2_NEW",
@@ -132,14 +132,14 @@
       "description": "If a sample mean is 50 and the margin of error for a 95% confidence interval is 5, what is the lower bound of the confidence interval?",
       "summary": "Lower bound of a CI",
       "solution": "Lower bound = Sample Mean - Margin of Error.",
-      "answer": 45
+      "answer": 45.0
     },
     {
       "questionId": "CCI_Q2_NEW",
       "description": "A confidence interval is calculated to be (22.4, 27.6). What is the sample statistic (point estimate) that this interval is centered around?",
       "summary": "Point estimate from a CI",
       "solution": "The point estimate is the midpoint of the confidence interval. Midpoint = (Lower Bound + Upper Bound) / 2.",
-      "answer": 25
+      "answer": 25.0
     }
   ],
   "Understand Hypothesis Testing": [
@@ -148,14 +148,14 @@
       "description": "If a hypothesis test uses a significance level (alpha) of 0.05, what is this value as a percentage?",
       "summary": "Significance level as percentage",
       "solution": "To convert a decimal to a percentage, multiply by 100.",
-      "answer": 5
+      "answer": 5.0
     },
     {
       "questionId": "UHT_Q2_NEW",
       "description": "If a p-value is calculated to be 0.03 and the significance level (alpha) is 0.05. Do you reject or fail to reject the null hypothesis? (Enter 1 for Reject, 0 for Fail to Reject)",
       "summary": "Decision rule for p-value",
       "solution": "The decision rule is: If p-value ≤ alpha, reject the null hypothesis. Otherwise, fail to reject.",
-      "answer": 1
+      "answer": 1.0
     }
   ],
   "Conduct t-tests": [
@@ -164,14 +164,14 @@
       "description": "In a one-sample t-test, if the calculated t-statistic is 2.5 and the critical t-value for a two-tailed test at alpha=0.05 is 2.1, is the result statistically significant? (Enter 1 for Yes, 0 for No)",
       "summary": "Significance in t-test",
       "solution": "The result is statistically significant if the absolute value of the calculated t-statistic is greater than the critical t-value.",
-      "answer": 1
+      "answer": 1.0
     },
     {
       "questionId": "CTT_Q2_NEW",
       "description": "For an independent samples t-test, Group A has n=10 and Group B has n=12. What are the degrees of freedom assuming equal variances?",
       "summary": "Degrees of freedom for independent t-test",
       "solution": "Degrees of freedom (df) for an independent samples t-test assuming equal variances is calculated as: df = n1 + n2 - 2.",
-      "answer": 20
+      "answer": 20.0
     }
   ],
   "Choose Appropriate Test": [
@@ -180,14 +180,14 @@
       "description": "You are comparing the means of 3 independent groups with continuous, normally distributed data and equal variances. What is the F-statistic value if the Mean Square Between groups (MSB) is 30 and Mean Square Within groups (MSW) is 10?",
       "summary": "Calculate F-statistic for ANOVA",
       "solution": "The F-statistic in ANOVA is calculated as F = MSB / MSW.",
-      "answer": 3
+      "answer": 3.0
     },
     {
       "questionId": "CAT_Q2_NEW",
       "description": "In a chi-square test of independence with a 2x3 contingency table (2 rows, 3 columns), what are the degrees of freedom?",
       "summary": "Degrees of freedom for chi-square test",
       "solution": "Degrees of freedom (df) for a chi-square test of independence = (number of rows - 1) * (number of columns - 1).",
-      "answer": 2
+      "answer": 2.0
     }
   ],
   "Conduct chi-square tests": [
@@ -196,14 +196,14 @@
       "description": "In a chi-square goodness-of-fit test with 4 categories, what are the degrees of freedom?",
       "summary": "Degrees of freedom for goodness-of-fit",
       "solution": "Degrees of freedom (df) for a chi-square goodness-of-fit test = number of categories - 1.",
-      "answer": 3
+      "answer": 3.0
     },
     {
       "questionId": "CCS_Q2_NEW",
       "description": "A chi-square test of independence yields a calculated chi-square value of 7.8. The critical value at alpha=0.05 for the given degrees of freedom is 5.99. Is there a significant association? (Enter 1 for Yes, 0 for No)",
       "summary": "Significance in chi-square test",
       "solution": "If the calculated chi-square value is greater than the critical chi-square value, the result is significant, indicating an association.",
-      "answer": 1
+      "answer": 1.0
     }
   ],
   "Compute Correlation Coefficients": [
@@ -219,7 +219,7 @@
       "description": "If two variables have a perfect positive linear correlation, what is the value of the Pearson correlation coefficient?",
       "summary": "Value of perfect positive correlation",
       "solution": "A perfect positive linear correlation is represented by the maximum positive value for the Pearson correlation coefficient.",
-      "answer": 1
+      "answer": 1.0
     }
   ],
   "Correlation vs. Causation": [
@@ -244,14 +244,14 @@
       "description": "In a simple linear regression equation Y = 5 + 2X, what is the value of the y-intercept (b0)?",
       "summary": "Identify y-intercept",
       "solution": "The y-intercept (b0) is the constant term in the linear regression equation Y = b0 + b1X.",
-      "answer": 5
+      "answer": 5.0
     },
     {
       "questionId": "PLR_Q2_NEW",
       "description": "In a simple linear regression equation Y = 5 + 2X, what is the value of the slope coefficient (b1)?",
       "summary": "Identify slope coefficient",
       "solution": "The slope coefficient (b1) is the coefficient of the independent variable (X) in the linear regression equation Y = b0 + b1X.",
-      "answer": 2
+      "answer": 2.0
     }
   ],
   "Interpret Regression Output": [
@@ -267,7 +267,7 @@
       "description": "An R-squared value of 0.75 means what percentage of the variance in Y is explained by X?",
       "summary": "Explaining an R-squared of 0.75",
       "solution": "R-squared represents the proportion of the variance in the dependent variable (Y) that is predictable from the independent variable (X). To express this as a percentage, multiply by 100.",
-      "answer": 75
+      "answer": 75.0
     }
   ],
   "Understand Spatial Distributions": [
@@ -276,14 +276,14 @@
       "description": "If a spatial pattern shows 10 points clustered in one small area out of 100 possible locations, and 0 points elsewhere. How many clusters are observed?",
       "summary": "Count observed clusters",
       "solution": "Analyze the description of the spatial pattern to count the distinct groupings of points.",
-      "answer": 1
+      "answer": 1.0
     },
     {
       "questionId": "USD_Q2_NEW",
       "description": "A study area is 100 square km. Resources are planned for 5 service centers. What is the average area served per center if distributed equally?",
       "summary": "Average area per service center",
       "solution": "Average area = Total Area / Number of Service Centers.",
-      "answer": 20
+      "answer": 20.0
     }
   ],
   "Calculate Spatial Central Tendency": [
@@ -292,14 +292,14 @@
       "description": "Three points are located at coordinates (1,1), (2,2), and (3,3). What is the x-coordinate of their mean center?",
       "summary": "X-coordinate of mean center",
       "solution": "The x-coordinate of the mean center is the average of the x-coordinates of all points: (x1 + x2 + x3) / 3.",
-      "answer": 2
+      "answer": 2.0
     },
     {
       "questionId": "CSCT_Q2_NEW",
       "description": "For the points (1,5), (2,1), (3,5), what is the median of the y-coordinates when ordered?",
       "summary": "Median of y-coordinates (proxy for median center aspect)",
       "solution": "List the y-coordinates, order them from smallest to largest, and find the middle value.",
-      "answer": 5
+      "answer": 5.0
     }
   ],
   "Apply Spatial Dispersion Measures": [
@@ -308,7 +308,7 @@
       "description": "If the standard distance deviation for a set of points is 5 units, and their mean center is (10,10). A new point is added at (10,15). What is its distance from the mean center?",
       "summary": "Distance of a point from mean center",
       "solution": "Use the distance formula: D = √((x2-x1)² + (y2-y1)²), where (x1,y1) is the mean center and (x2,y2) is the new point.",
-      "answer": 5
+      "answer": 5.0
     },
     {
       "questionId": "ASDM_Q2_NEW",
@@ -324,14 +324,14 @@
       "description": "If Moran's I value is -0.7, does this indicate positive or negative spatial autocorrelation? (Enter 1 for Positive, -1 for Negative, 0 for None/Random)",
       "summary": "Sign of spatial autocorrelation from Moran's I",
       "solution": "A negative Moran's I value indicates negative spatial autocorrelation (dispersion). A positive value indicates positive spatial autocorrelation (clustering). A value near zero suggests randomness.",
-      "answer": -1
+      "answer": -1.0
     },
     {
       "questionId": "ISC_Q2_NEW",
       "description": "A Moran's I test yields a p-value of 0.01. If the significance level (alpha) is 0.05, is the observed spatial autocorrelation statistically significant? (Enter 1 for Yes, 0 for No)",
       "summary": "Significance of Moran's I",
       "solution": "If the p-value is less than or equal to the significance level (alpha), the result is statistically significant.",
-      "answer": 1
+      "answer": 1.0
     }
   ],
   "Test": [
@@ -340,7 +340,7 @@
       "description": "What is 15 minus 7?",
       "summary": "Simple subtraction",
       "solution": "Perform the subtraction: 15 - 7.",
-      "answer": 8
+      "answer": 8.0
     }
   ]
 }

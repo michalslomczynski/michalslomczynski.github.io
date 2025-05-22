@@ -1,20 +1,6 @@
 {
   "Foundational Statistics": [
     {
-      "questionId": "FS_Q1_NEW",
-      "description": "If a dataset has 5 numbers: 2, 4, 6, 8, 10. What is their sum?",
-      "summary": "Calculate sum of a small dataset",
-      "solution": "Sum = 2 + 4 + 6 + 8 + 10",
-      "answer": 30
-    },
-    {
-      "questionId": "FS_Q2_NEW",
-      "description": "A survey of 100 people found 60 prefer coffee and 40 prefer tea. What percentage prefers coffee?",
-      "summary": "Calculate percentage",
-      "solution": "(Number who prefer coffee / Total people) * 100",
-      "answer": 60
-    },
-    {
       "questionId": "FS_Q3",
       "description": "A dataset represents the daily number of customers at a small shop over a week:\n45, 50, 55, 60, 65, 70, 75.\nCalculate the mean of this dataset.",
       "summary": "Compute the Mean",
@@ -27,6 +13,69 @@
       "summary": "Compute the Standard deviation",
       "solution": "First, calculate the mean. Then, find the sum of squared differences from the mean: Σ(x-μ)². Divide by (n-1) to get the variance. The standard deviation is the square root of the variance.",
       "answer": 10.8
+    },
+    {
+      "questionId": "FS_Q2_ADV",
+      "description": "In a survey of 250 people, 140 preferred coffee, 90 preferred tea, and 20 had no preference. Calculate the percentage of people who preferred coffee.",
+      "summary": "Calculate percentage",
+      "solution": "Percentage = (140/250)*100 = 56%.",
+      "answer": 56.0
+    },
+    {
+      "questionId": "FS_Q3_ADV",
+      "description": "Given the dataset of daily temperatures (°C) recorded over 10 days:\n21, 23, 20, 22, 24, 25, 23, 21, 22, 20,\nCalculate the mean temperature.",
+      "summary": "Calculate mean",
+      "solution": "Mean = sum of values / number of values = 211 / 10 = 21.1.",
+      "answer": 21.1
+    },
+    {
+      "questionId": "FS_Q4_ADV",
+      "description": "A dataset represents daily returns (%) of a stock over 12 days:\n1.2, -0.5, 0.3, 1.0, -1.1, 0.7, -0.2, 1.4, -0.7, 0.0, 0.8, -0.3.\nCalculate the sample standard deviation (rounded to 3 decimal places).",
+      "summary": "Calculate sample standard deviation",
+      "solution": "Calculate mean, then sum of squared deviations divided by (n-1), then square root for SD.",
+      "answer": 0.809
+    },
+    {
+      "questionId": "FS_Q5_HARD",
+      "description": "Two datasets, A and B, both have 5 data points. Dataset A: {2, 4, 6, 8, 10}. Dataset B is created by multiplying each data point in A by 3 and then adding 5. Calculate the variance of Dataset B. (Hint: Recall properties of variance: Var(cX) = c^2 Var(X) and Var(X+k) = Var(X)).",
+      "summary": "Variance of a transformed dataset",
+      "solution": "First, find Var(A). Mean(A) = 6. Var(A) = [(2-6)^2 + (4-6)^2 + (6-6)^2 + (8-6)^2 + (10-6)^2] / 4 = [16+4+0+4+16]/4 = 40/4 = 10 (using n-1 for sample variance). Let Y = 3X + 5. Var(Y) = Var(3X+5) = Var(3X) = 3^2 Var(X) = 9 * Var(A) = 9 * 10.",
+      "answer": 90
+    },
+    {
+      "questionId": "FS_Q6_HARD",
+      "description": "A dataset of exam scores is approximately normally distributed with a mean of 75 and a standard deviation of 10. Using the empirical rule (68-95-99.7), what percentage of students scored between 65 and 95? If there are 200 students, approximately how many students scored in this range?",
+      "summary": "Application of Empirical Rule",
+      "solution": "65 is one standard deviation below the mean (75-10). 95 is two standard deviations above the mean (75 + 2*10). The range from μ-σ to μ+2σ covers approximately 68%/2 + 95%/2 = 34% + 47.5%. Number of students = Percentage * Total students.",
+      "answer": 163
+    },
+    {
+      "questionId": "FS_Q7_HARD",
+      "description": "The coefficient of variation (CV) is defined as (Standard Deviation / Mean) * 100%. Stock A has a mean monthly return of 2% with a standard deviation of 5%. Stock B has a mean monthly return of 8% with a standard deviation of 15%. Calculate the CV for Stock A and Stock B. Which stock is relatively more risky based on CV (answer with 1 for Stock A, 2 for Stock B)?",
+      "summary": "Coefficient of Variation and Relative Risk",
+      "solution": "CV_A = (5/2)*100 = 250%. CV_B = (15/8)*100 = 187.5%. Stock A has a higher CV, indicating more risk per unit of return.",
+      "answer": 1
+    },
+    {
+      "questionId": "FS_Q8_HARD",
+      "description": "A dataset has a median of 50. If each value in the dataset is increased by 10, what is the new median? If each value in the original dataset is then multiplied by 2 (after the increase of 10), what is the new median after both transformations?",
+      "summary": "Effect of transformations on median",
+      "solution": "Median is affected by additive and multiplicative transformations in the same way as individual data points. New Median_1 = Original Median + 10. New Median_2 = New Median_1 * 2.",
+      "answer": 120
+    },
+    {
+      "questionId": "FS_Q9_HARD",
+      "description": "Chebyshev's Inequality states that for any distribution, the proportion of data within k standard deviations of the mean is at least 1 - (1/k^2), for k > 1. A dataset has a mean of 100 and a standard deviation of 20. At least what percentage of the data lies between 40 and 160?",
+      "summary": "Application of Chebyshev's Inequality",
+      "solution": "The interval 40 to 160 is 100 ± 60. This is 100 ± 3*20, so k=3 standard deviations. Proportion ≥ 1 - (1/3^2) = 1 - 1/9 = 8/9. Convert to percentage.",
+      "answer": 88.89
+    },
+    {
+      "questionId": "FS_Q10_HARD",
+      "description": "You are given two sample datasets. Sample 1: {10, 20, 30}. Sample 2: {15, 25, 35}. If these two samples are combined to form a single dataset of 6 values, calculate the mean of the combined dataset. (Answer to 1 decimal place if needed).",
+      "summary": "Mean of a combined dataset",
+      "solution": "Sum1 = 10+20+30 = 60. n1=3. Sum2 = 15+25+35 = 75. n2=3. Combined Sum = Sum1 + Sum2 = 60 + 75 = 135. Combined n = n1 + n2 = 3 + 3 = 6. Combined Mean = Combined Sum / Combined n.",
+      "answer": 22.5
     }
   ],
   "Compute Event Probabilities": [
